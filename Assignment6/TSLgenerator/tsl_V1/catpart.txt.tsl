@@ -1,0 +1,765 @@
+
+Test Case 1  		<single>
+   File size :  Empty
+
+
+Test Case 2  		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 3  		<single>
+   Number of OPT flags applied :  Empty
+
+
+Test Case 4  		<error>
+   Presence of characters in OPT flags :  Incorrect
+
+
+Test Case 5  		<single>
+   Length of the delimiters :  One
+
+
+Test Case 6  		<error>
+   Presence of characters in delimiters :  Incorrect
+
+
+Test Case 7  		<single>
+   Number of occurrences of the delimiters in the file :  None
+
+
+Test Case 8  		<single>
+   Position of the delimiters in the file :  First line
+
+
+Test Case 9  		<single>
+   Position of the delimiters in the file :  Last line
+
+
+Test Case 10 		<single>
+   Length of the string :  Empty
+
+
+Test Case 11 		<single>
+   Length of the string :  One
+
+
+Test Case 12 		<single>
+   Length of the string :  Longer than the file
+
+
+Test Case 13 		<single>
+   Presence of characters that are not alphabets in the string :  Many
+
+
+Test Case 14 		<single>
+   Number of occurrences of the String in the file :  None
+
+
+Test Case 15 		<single>
+   Position of the String in the file :  First line
+
+
+Test Case 16 		<single>
+   Position of the String in the file :  Last line
+
+
+Test Case 17 		(Key = 2.2.2.1.1.1.1.0.0.3.0.0.0.0.0.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  <n/a>
+   Presence of characters that are not alphabets in the string :  <n/a>
+   Number of occurrences of the String in the file             :  <n/a>
+   Number of occurrences of the String in one line             :  <n/a>
+   Position of the String in the file                          :  <n/a>
+
+
+Test Case 18 		(Key = 2.2.2.1.1.3.1.2.1.3.0.0.0.0.0.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  <n/a>
+   Presence of characters that are not alphabets in the string :  <n/a>
+   Number of occurrences of the String in the file             :  <n/a>
+   Number of occurrences of the String in one line             :  <n/a>
+   Position of the String in the file                          :  <n/a>
+
+
+Test Case 19 		(Key = 2.2.2.1.1.3.1.3.2.3.0.0.0.0.0.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  <n/a>
+   Presence of characters that are not alphabets in the string :  <n/a>
+   Number of occurrences of the String in the file             :  <n/a>
+   Number of occurrences of the String in one line             :  <n/a>
+   Position of the String in the file                          :  <n/a>
+
+
+Test Case 20 		(Key = 2.2.2.1.2.0.0.0.0.0.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 21 		(Key = 2.2.2.1.2.0.0.0.0.0.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 22 		(Key = 2.2.2.1.2.0.0.0.0.0.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 23 		(Key = 2.2.2.1.2.0.0.0.0.0.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 24 		(Key = 2.2.2.1.3.0.0.0.0.0.0.0.0.0.0.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  One
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -f
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  <n/a>
+   Presence of characters that are not alphabets in the string :  <n/a>
+   Number of occurrences of the String in the file             :  <n/a>
+   Number of occurrences of the String in one line             :  <n/a>
+   Position of the String in the file                          :  <n/a>
+
+
+Test Case 25 		(Key = 2.2.3.1.4.1.1.0.0.3.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 26 		(Key = 2.2.3.1.4.1.1.0.0.3.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 27 		(Key = 2.2.3.1.4.1.1.0.0.3.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 28 		(Key = 2.2.3.1.4.1.1.0.0.3.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 29 		(Key = 2.2.3.1.4.3.1.2.1.3.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 30 		(Key = 2.2.3.1.4.3.1.2.1.3.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 31 		(Key = 2.2.3.1.4.3.1.2.1.3.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 32 		(Key = 2.2.3.1.4.3.1.2.1.3.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 33 		(Key = 2.2.3.1.4.3.1.3.2.3.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 34 		(Key = 2.2.3.1.4.3.1.3.2.3.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 35 		(Key = 2.2.3.1.4.3.1.3.2.3.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 36 		(Key = 2.2.3.1.4.3.1.3.2.3.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 37 		(Key = 2.2.3.1.5.1.1.0.0.3.0.0.0.0.0.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-f
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  <n/a>
+   Presence of characters that are not alphabets in the string :  <n/a>
+   Number of occurrences of the String in the file             :  <n/a>
+   Number of occurrences of the String in one line             :  <n/a>
+   Position of the String in the file                          :  <n/a>
+
+
+Test Case 38 		(Key = 2.2.3.1.5.3.1.2.1.3.0.0.0.0.0.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  <n/a>
+   Presence of characters that are not alphabets in the string :  <n/a>
+   Number of occurrences of the String in the file             :  <n/a>
+   Number of occurrences of the String in one line             :  <n/a>
+   Position of the String in the file                          :  <n/a>
+
+
+Test Case 39 		(Key = 2.2.3.1.5.3.1.3.2.3.0.0.0.0.0.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  <n/a>
+   Presence of characters that are not alphabets in the string :  <n/a>
+   Number of occurrences of the String in the file             :  <n/a>
+   Number of occurrences of the String in one line             :  <n/a>
+   Position of the String in the file                          :  <n/a>
+
+
+Test Case 40 		(Key = 2.2.3.1.6.0.0.0.0.0.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m-f
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 41 		(Key = 2.2.3.1.6.0.0.0.0.0.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m-f
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 42 		(Key = 2.2.3.1.6.0.0.0.0.0.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m-f
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 43 		(Key = 2.2.3.1.6.0.0.0.0.0.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -m-f
+   Length of the delimiters                                    :  <n/a>
+   Presence of characters in delimiters                        :  <n/a>
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  <n/a>
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 44 		(Key = 2.2.3.1.7.1.1.0.0.3.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 45 		(Key = 2.2.3.1.7.1.1.0.0.3.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 46 		(Key = 2.2.3.1.7.1.1.0.0.3.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 47 		(Key = 2.2.3.1.7.1.1.0.0.3.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Empty
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  <n/a>
+   Number of occurrences of the delimiters in one line         :  <n/a>
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 48 		(Key = 2.2.3.1.7.3.1.2.1.3.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 49 		(Key = 2.2.3.1.7.3.1.2.1.3.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 50 		(Key = 2.2.3.1.7.3.1.2.1.3.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 51 		(Key = 2.2.3.1.7.3.1.2.1.3.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  One
+   Number of occurrences of the delimiters in one line         :  One
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 52 		(Key = 2.2.3.1.7.3.1.3.2.3.3.1.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 53 		(Key = 2.2.3.1.7.3.1.3.2.3.3.1.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  None
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any
+
+
+Test Case 54 		(Key = 2.2.3.1.7.3.1.3.2.3.3.2.2.1.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  One
+   Number of occurrences of the String in one line             :  One
+   Position of the String in the file                          :  Any
+
+
+Test Case 55 		(Key = 2.2.3.1.7.3.1.3.2.3.3.2.3.2.3.)
+   File size                                                   :  Not empty
+   Presence of a file corresponding to the name                :  Present
+   Number of OPT flags applied                                 :  Many
+   Presence of characters in OPT flags                         :  Correct
+   Applied OPT flags                                           :  -w-m-f
+   Length of the delimiters                                    :  Many
+   Presence of characters in delimiters                        :  Correct
+   Number of occurrences of the delimiters in the file         :  Many
+   Number of occurrences of the delimiters in one line         :  Many
+   Position of the delimiters in the file                      :  Any
+   Length of the string                                        :  More than one
+   Presence of characters that are not alphabets in the string :  One
+   Number of occurrences of the String in the file             :  Many
+   Number of occurrences of the String in one line             :  Many
+   Position of the String in the file                          :  Any

@@ -1,0 +1,68 @@
+# File
+  File size:
+      Empty.                  [single] [property emptyFile]
+      Not empty.
+
+# Filename
+  Presence of a file corresponding to the name:
+      Not present.            [error]
+      Present.
+
+# Operation flags
+  Number of OPT flags applied:
+      Empty.                  [single] [property emptyOPT]
+      One.                             [if !emptyOPT] [property oneOPT]
+      Many.                            [if !emptyOPT && !oneOPT] [property multiOPT]
+  Presence of characters in OPT flags:
+      Correct.
+      Incorrect.              [error]
+  Applied OPT flags:
+      -w.                              [if oneOPT] [property optWApplied]
+      -m.                              [if oneOPT] [property optMApplied]
+      -f.                              [if oneOPT]
+      -w-m.                            [if multiOPT] [property optWApplied] [property optMApplied]
+      -w-f.                            [if multiOPT] [property optWApplied]
+      -m-f.                            [if multiOPT] [property optMApplied]
+      -w-m-f.                          [if multiOPT] [property optWApplied] [property optMApplied]
+
+# Delimiters
+  Length of the delimiters:
+      Empty.                           [if optWApplied] [property emptyDelimiter]
+      One.                    [single] [if optWApplied]
+      Many.                            [if optWApplied] [property delimiterLength1]
+  Presence of characters in delimiters:
+      Correct.                         [if optWApplied]
+      Incorrect.              [error]
+  Number of occurrences of the delimiters in the file:
+      None.                   [single] [if optWApplied && !emptyFile && !emptyDelimiter]
+      One.                             [if optWApplied && !emptyFile && !emptyDelimiter] [property oneDelInFile]
+      Many.                            [if optWApplied && !emptyFile && !emptyDelimiter] [property multiDelInFile]
+  Number of occurrences of the delimiters in one line:
+      One.                             [if optWApplied && !emptyFile && oneDelInFile]
+      Many.                            [if optWApplied && !emptyFile && multiDelInFile]
+  Position of the delimiters in the file:
+      First line.             [single] [if optWApplied && !emptyFile]
+      Last line.              [single] [if optWApplied && !emptyFile]
+      Any.                             [if optWApplied && !emptyFile]
+
+# String
+  Length of the string:
+      Empty.                  [single] [if optMApplied] [property emptyString]
+      One.                    [single] [if optMApplied]
+      More than one.                   [if optMApplied] [property stringLengtht1]
+      Longer than the file.   [single] [if optMApplied]
+  Presence of characters that are not alphabets in the string:
+      None.                            [if !emptyString && optMApplied && !emptyFile]
+      One.                             [if !emptyString && optMApplied && !emptyFile]
+      Many.                   [single] [if !emptyString && optMApplied && !emptyFile]
+  Number of occurrences of the String in the file:
+      None.                   [single] [if !emptyFile && optMApplied && !emptyString]
+      One.                             [if !emptyFile && optMApplied && !emptyString] [property oneStrInFile]
+      Many.                            [if !emptyFile && optMApplied && !emptyString] [property multiStrInFile]
+  Number of occurrences of the String in one line:
+      One.                             [if optMApplied && !emptyFile && oneStrInFile]
+      Many.                            [if optMApplied && !emptyFile && multiStrInFile]
+  Position of the String in the file:
+      First line.             [single] [if !emptyFile && optMApplied]
+      Last line.              [single] [if !emptyFile && optMApplied]
+      Any.                             [if !emptyFile && optMApplied]
